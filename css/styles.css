@@ -5,10 +5,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: white;
-}
-
-.container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 15%;
 }
 
 h1 {
@@ -50,12 +47,22 @@ h2 {
 }
 
 .title-image {
-  width: 75%;
-  transform: rotate(10deg);
+  width: 60%;
+  transform: rotate(12deg);
+  position: absolute;
+  right: 25%;
+}
+
+
+/* Features Section  */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; Can be included, but not necessary as later elements are naturally on top. */
 }
 
 .mkt-phrase {
-  margin: 30px 0;
   text-align: center;
 }
 
@@ -105,4 +112,14 @@ h2 {
 .press-img {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section  */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
