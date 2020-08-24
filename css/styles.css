@@ -2,6 +2,11 @@ body {
   font-family: "Montserrat";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Title Section  */
 #title {
   background-color: #ff4c68;
   color: white;
@@ -51,6 +56,17 @@ h2 {
   transform: rotate(12deg);
   position: absolute;
   right: 25%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
 }
 
 
@@ -103,6 +119,7 @@ h2 {
     padding: 7% 15%;
 }
 
+/* Press Section  */
 #press {
   background-color: #ed6663;
   text-align: center;
@@ -114,6 +131,7 @@ h2 {
   margin: 20px 20px 50px;
 }
 
+
 /* Pricing Section  */
 #pricing {
   padding: 100px;
@@ -122,4 +140,37 @@ h2 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+
+/* CTA Section  */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 2% 4%;
+}
+
+.cta-title {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: white;
+}
+
+
+/* Footer Section  */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-icon {
+  padding: 1%;
+  margin-bottom: 20px;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  letter-spacing: 0.08rem;
 }
