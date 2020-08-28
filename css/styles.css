@@ -1,30 +1,73 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-/* Title Section  */
-#title {
-  background-color: #ff4c68;
-  color: white;
-  padding: 3% 15% 15%;
+h1, h2, h3, h4 {
+  font-family: "Montserrat";
+  line-height: 1.5;
 }
 
-h1 {
-  font-family: "Montserrat";
+
+/* Headings */
+.intro-heading {
   font-weight: 800;
   font-size: 3.5rem;
-  line-height: 1.5;
+  text-align: left;
 }
 
-h2 {
-  font-family: "Montserrat";
+.pricing-heading {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.cta-heading {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.mkt-heading {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 15px 0 10px 0;
+}
+
+
+/* Texts */
+.price-text {
   font-weight: 600;
   font-size: 2rem;
-  line-height: 1.5;
+}
+
+.testimonial-text {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.mkt-text {
+  color: #8f8f8f;
+}
+
+
+/* Color Sections */
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+}
+
+
+/* Title Section  */
+#title {
+  color: white;
+  padding: 3% 15% 15%;
 }
 
 .navbar {
@@ -73,13 +116,8 @@ h2 {
 /* Features Section  */
 #features {
   padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   /* z-index: 1; Can be included, but not necessary as later elements are naturally on top. */
-}
-
-.mkt-phrase {
-  text-align: center;
 }
 
 .mkt-icon {
@@ -90,23 +128,10 @@ h2 {
   color: red;
 }
 
-.mkt-h3 {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: 15px 0 10px 0;
-}
-
-.mkt-p {
-  color: #8f8f8f;
-}
-
 
 /* Testimonial Section  */
 #testimonials {
-  text-align: center;
   color: #fff;
-  background-color: #ed6663;
 }
 
 .testimonial-image {
@@ -119,10 +144,9 @@ h2 {
     padding: 7% 15%;
 }
 
+
 /* Press Section  */
 #press {
-  background-color: #ed6663;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -135,7 +159,6 @@ h2 {
 /* Pricing Section  */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
@@ -145,23 +168,12 @@ h2 {
 
 /* CTA Section  */
 #cta {
-  background-color: #ff4c68;
-  text-align: center;
   padding: 8% 2% 4%;
-}
-
-.cta-title {
-  font-family: "Montserrat";
-  font-weight: 800;
-  font-size: 2.5rem;
-  color: white;
 }
 
 
 /* Footer Section  */
 #footer {
-  background-color: #fff;
-  text-align: center;
   padding: 5%;
 }
 
